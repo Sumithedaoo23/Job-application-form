@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Web Application
+                <span class="title_small">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form"></div>
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                        <input id="first_name" name="first_name" placeholder="Enter first name..">
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                        <input id="last_name" name="last_name" placeholder="Enter Last name..">
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="email">email</label>
+                        <input type="email" 
+                        id="email" 
+                        name="email"
+                         placeholder="Enter your email..">
+                    </div>
+                </div>
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="job_role">Job role</label>
+                        <select id="job_role" name="job role">
+                            <option value="">Select job role</option>
+                            <option value="fronted">frontend developer</option>
+                            <option value="backend">backend developer</option>
+                            <option value="full_stack">full stack developer</option>
+                            <option value="ui_ux">UI UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Address</label>
+                        <textarea id="address" name="address" rows="4" cols="50" placeholder="enter address"></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="City">city</label>
+                        <input type="City" 
+                        id="City" 
+                        name="city"
+                         placeholder="Enter city name">
+                    </div>
+                    <div class="form_control">
+                        <label for="pincode">pincode</label>
+                        <input type="number" 
+                        id="pincode" 
+                        name="pincode"
+                         placeholder="Enter your pincode">
+                    </div>
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input value="2022/12/10"
+                        type="date" 
+                        id="date" 
+                        name="date">
+                    </div>
+                    <div class="form_control">
+                        <label for="date">Upload your CV</label>
+                        <input value="2022/12/10"
+                        type="file" 
+                        id="upload" 
+                        name="upload">
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
